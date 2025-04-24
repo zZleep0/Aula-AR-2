@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 410087040}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 1286982367}
   - component: {fileID: 1286982366}
   - component: {fileID: 1286982368}
+  - component: {fileID: 1286982369}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -690,8 +691,23 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SerializedLibrary: {fileID: 11400000, guid: 6a3cb8c859156ef408308d16d6a3d04c, type: 2}
-  m_MaxNumberOfMovingImages: 4
-  m_TrackedImagePrefab: {fileID: 8475070146125857840, guid: 430c92caebbc209459dfcae541c2ec14, type: 3}
+  m_MaxNumberOfMovingImages: 0
+  m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1286982369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286982365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c244aefd76cfc4494c3a161ed80612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArPrefabs:
+  - {fileID: 8475070146125857840, guid: 430c92caebbc209459dfcae541c2ec14, type: 3}
+  - {fileID: 1695426542284222164, guid: 8d6ef2ac12d5e584fa65eee18440d05d, type: 3}
 --- !u!1 &1730618174
 GameObject:
   m_ObjectHideFlags: 0
